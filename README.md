@@ -14,7 +14,7 @@ Yes, Monte Carlo is a casino, but the method is just named after it.. simply put
 
 | Strategy | Avg Score | Trials |
 |---|---|---|
-| Fixed number (10), random bowler | 90.76 | 10,000 |
+| Fixed number (10), random bowler | ~90 | 10,000 |
 | Fixed number (10), biased bowler (60% repeat) | ~225 | 10,000 |
 | Random pick avoiding bowler's last number | ~125 | 10,000 |
 | Random pick, greater than bowler's last number | ~140 | 10,000 |
