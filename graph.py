@@ -7,7 +7,7 @@ method = [
     "Adaptive Batsman vs Adaptive Bowler\n(Avoids previous num but always\n       greater than previous num)"
 ]
 
-s = [90.76, 225.643, 125.032, 224.791]
+s = [90.76, 225.643, 125.032, 139.675]
 plt.figure(figsize=(10, 6), dpi=150)
 b = plt.barh(method, s, color="#4C72B0")
 
