@@ -21,7 +21,8 @@ Yes, Monte Carlo is a casino, but the method is just named after it.. simply put
 
 Here is how, without any probability calculation.. i was able to predict the perfect outcome of each case.. for a random bowler.. each number wil obviously have a probability of 1/10.. multiply that probability with the number itself to get a risk * reward value of the number.. for a random bowler the risk * reward will be maximum for 10 and 10 always as the probability doesnt change.. this is a geomtric distribution so no of attempts before fail will be 1/(1/10) which will come as 10.. since the 10th attempt is where the batsman is gone out. 9 * 10 should give us an average score of 90... and that was exactly what was predicted by my model
 
-<img width="2978" height="1774" alt="results_chart" src="https://github.com/user-attachments/assets/27000451-6248-41bf-bd10-74e14d5a5b8a" />
+<img width="2978" height="1774" alt="results_chart" src="https://github.com/user-attachments/assets/c923046c-f2ba-4974-b4bd-24913d2fbf39" />
+
 
 ## Python Stuff
 See [iterations.py](iterations.py) for the iterations used to get the graph data.. main.py is the Work In Progress Adaptive Batsman.. [graph.py](graph.py)
