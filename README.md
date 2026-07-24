@@ -11,6 +11,14 @@ Hand Cricket is very complex in its nature.. its a 2 player game where person A 
 Yes, Monte Carlo is a casino, but the method is just named after it.. simply put, instead of brute forcing calculations using probability, you simulate it using computer algorithims, thats the Monte Carlo method. For The Time Being, You Play as the bowler and the batsman in main.py tries to Adapt to your playstyle.. but you have to give it time to adapt.. lesser the time.. more the AI will converge towards 10.. it will keep convering to 10 at counts of less than 200 or 300.. in the future im thinking of training it with human input but for now enjoy having to play 300 times to get an adaptive batsman hehe :D
 
 ## Results
+
+| Strategy | Avg Score | Trials |
+|---|---|---|
+| Fixed number (10), random bowler | 90.76 | 10,000 |
+| Fixed number (10), biased bowler (60% repeat) | ~225 | 10,000 |
+| Random pick avoiding bowler's last number | ~125 | 10,000 |
+| Random pick, greater than bowler's last number | ~140 | 10,000 |
+
 Here is how, without any probability calculation.. i was able to predict the perfect outcome of each case.. for a random bowler.. each number wil obviously have a probability of 1/10.. multiply that probability with the number itself to get a risk * reward value of the number.. for a random bowler the risk * reward will be maximum for 10 and 10 always as the probability doesnt change.. this is a geomtric distribution so no of attempts before fail will be 1/(1/10) which will come as 10.. since the 10th attempt is where the batsman is gone out. 9 * 10 should give us an average score of 90... and that was exactly what was predicted by my model
 
 <img width="2978" height="1774" alt="results_chart" src="https://github.com/user-attachments/assets/27000451-6248-41bf-bd10-74e14d5a5b8a" />
