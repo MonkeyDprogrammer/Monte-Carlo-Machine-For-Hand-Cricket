@@ -14,7 +14,7 @@ while True:
     else:
         bow = int(temp)
 
-    #6 turns to collect Data
+    #6 turns to collect Data will converge to 10.. make sure to use a bigger number
     if c <= 6:
         bat = r.randint(1,10)
         if bat == bow:
