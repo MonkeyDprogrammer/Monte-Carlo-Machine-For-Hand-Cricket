@@ -1,3 +1,6 @@
-<img width="2978" height="1774" alt="results_chart" src="https://github.com/user-attachments/assets/27000451-6248-41bf-bd10-74e14d5a5b8a" />
+
 # Monte-Carlo-Machine-For-Hand-Cricket
+
+<img width="2978" height="1774" alt="results_chart" src="https://github.com/user-attachments/assets/27000451-6248-41bf-bd10-74e14d5a5b8a" />
+
 Hand Cricket was this very nostalgic game that I have played when i was a kid.. its very popular here in India. I thought to myself.. what's the most optimal way to play this game? I used Probability to find the direct answer, but ultimately decided to build a Monte Carlo Machine to simulate and plot the results.
