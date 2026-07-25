@@ -25,5 +25,5 @@ Here is how, without any probability calculation.. i was able to predict the per
 
 
 ## Python Stuff
-See [Iterations.py](Iterations.py) for the iterations used to get the graph data.. main.py is the Work In Progress Adaptive Batsman.. [graph.py](graph.py)
+See [Iterations.py](Iterations.py) for the iterations used to get the graph data.. [main.py](main.py) is the Work In Progress Adaptive Batsman.. [graph.py](graph.py)
 was used to generate the graph for the results... results are hardcoded in it, as it wouldnt use the remaining decimal anyway.
